@@ -1,560 +1,186 @@
 /* RESPONSIVE CSS HERE */
-@media (min-width: 1200px){
-    .container {
-        max-width: 1140px;
-    }
+@media (min-width:1200px) {
+    .container { max-width: 1140px; }
 }
-@media(max-width: 2560px){
-   
+@media(max-width:2560px) { }
+@media(max-width:1440px) {
+    .strands .owl-nav .owl-next { right: -10%; }
+    .strands .owl-nav .owl-prev { left: -10%; }
+    .banner .banner-content .text-container p { font-size: 19px; }
+    .banner .banner-content h2 { font-size: 55px; }
+    .banner .banner-content .text-container { max-width: 550px; }
+    .style-div { left: 45%; }
+    .banner .banner-content .button a { font-size: 26px; padding: 21px 30px; }
+    .owl-carousel .owl-nav .owl-next { height: 49px; color: #fff; padding: 1px 23px; font-size: 50px; }
+    .owl-carousel .owl-nav .owl-prev { height: 49px; color: #fff; padding: 1px 23px; font-size: 50px; }
 }
-
-@media(max-width: 1440px){
-    .strands .owl-nav .owl-next {
-        right: -10%;
-    } 
-    .strands .owl-nav .owl-prev {
-        left: -10%;
-    } 
-    .banner .banner-content .text-container p {
-        font-size: 19px;
-    }
-    .banner .banner-content h2 {
-        font-size: 55px;
-    }
-    .banner .banner-content .text-container {
-        max-width: 550px;
-    }
-    .style-div {
-        left: 45%;
-    }
-    .banner .banner-content .button a {
-        font-size: 26px;
-        padding: 21px 30px;
-    }
-    .owl-carousel .owl-nav .owl-next {
-        height: 49px;
-        color: #fff;
-        padding: 1px 23px;
-        font-size: 50px;
-    }
-    .owl-carousel .owl-nav .owl-prev {
-        height: 49px;
-        color: #fff;
-        padding: 1px 23px;
-        font-size: 50px;
-    }
+@media(max-width:1200px) {
+    header ul li a { font-size: 15px; }
+    .middle-div { -webkit-transform: translate(20%, -50%); transform: translate(20%, -50%); }
 }
-@media(max-width:1200px){
-    header ul li a {
-        font-size: 15px;
-      }
-      .middle-div {
-        -webkit-transform: translate(20%, -50%);
-        transform: translate(20%, -50%);
-      }
-}
+@media (max-width:1024px) {
+    .banner .banner-content h2 { font-size: 33px; }
+    .banner .banner-content .text-container p { font-size: 16px; }
+    .banner .banner-content .text-container { max-width: 600px; }
+    .banner .banner-content .button a { font-size: 16px; padding: 14px 22px; }
+    .banner .banner-content .button { padding: 0px 0; }
+    footer .location iframe { width: 353px; height: 200px; }
+    .strands .owl-nav .owl-next { display: none; }
+    .strands .owl-nav .owl-prev { display: none; }
+    .banner .caption-container h1 { font-size: 40px; }
+    .banner .caption-container h2 { font-size: 30px; }
+    .banner .caption-container p { font-size: 14px; }
+    .banner .caption-container .enroll-button a { padding: 12px 22px; font-size: 12px; }
+    header nav ul li a { font-size: 13px; }
+    header nav ul li .enroll { font-size: 13px; }
+    header nav ul li { margin: 0 10px; }
+    .banner .caption-container .enroll-button { padding-top: 0px; }
+    .navbar-dark .navbar-brand { margin-left: 68px; }
+    .urs h1 { font-size: 25px; }
+    .urs p { font-size: 16px; }
+    .urs .values ul li h2 { font-size: 16px; }
+    .urs .values h1 { font-size: 25px; }
+    .urs .logo { width: 60%; left: 20%; }
+    .urs p { padding-right: 0px; }
+    .about-us .caption-container p { font-size: 16px; }
+    .about-us .caption-container .header h1 { font-size: 30px; }
 
-
-
-@media (max-width: 1024px){
-    .banner .banner-content h2 {
-        font-size: 33px;
-    }
-    .banner .banner-content .text-container p {
-        font-size: 16px;
-    }
-    .banner .banner-content .text-container {
-        max-width: 600px;
-    }
-    .banner .banner-content .button a {
-        font-size: 16px;
-        padding: 14px 22px;
-    }
-    .banner .banner-content .button {
-        padding: 0px 0;
-    }
-    footer .location iframe {
-        width: 353px;
-        height: 200px;
-    }
-    .strands .owl-nav .owl-next {
-        display: none;
-    }
-    .strands .owl-nav .owl-prev {
-        display: none;
-    }
-    .banner .caption-container h1 {
-        font-size: 40px;
-    }
-    .banner .caption-container h2 {
-        font-size: 30px;
-    }
-    .banner .caption-container p {
-        font-size: 14px;
-    }
-    .banner .caption-container .enroll-button a {
-        padding: 12px 22px;
-        font-size: 12px;
-    }
-    header nav ul li a {
-        font-size: 13px;
-    }
-    header nav ul li .enroll {
-        font-size: 13px;
-    }
-    header nav ul li {
-        margin: 0 10px;
-    }
-    .banner .caption-container .enroll-button {
-        padding-top: 0px;
-    }
-    .navbar-dark .navbar-brand {
-        margin-left: 68px;
-    }
-    .urs h1 {
-        font-size: 25px;
-    }
-    .urs p {
-        font-size: 16px;
-    }
-    .urs .values ul li h2 {
-        font-size: 16px;
-    }  
-    .urs .values h1 {
-        font-size: 25px;
-    }
-    .urs .logo {
-        width: 60%;
-        left: 20%;
-    }
-    .urs p {
-        padding-right: 0px;
-    }
-    .about-us .caption-container p {
-        font-size: 16px;
-    }
-    .about-us .caption-container .header h1 {
-        font-size: 30px;
-    }
     /* .container {
         padding-left: 30px;
     } */
-    .strands .heading-2 h1 {
-    font-size: 30px;
-    }
-    .strands .item {
-        padding: 39px 0;
-    }
-    .strands .item .align-middle .container-padding h1 {
-        font-size: 25px;
-        padding-bottom: 10px;
-    }
-    .strands .item .align-middle .container-padding p {
-        font-size: 14px;
-    }
-    .strands .item .align-middle .container-padding .button {
-        padding: 55px 0 0;
-    }
-    .strands .item .align-middle .container-padding .button a {
-        font-size: 15px;
-        padding: 15px 25px;
-    }
-    .strands .item .align-middle img {
-        height: 420px;
-    }
-    .strands .owl-dots .owl-dot {
-        width: 15px;
-        height: 15px;
-    }
-    .strands .owl-dots .active {
-        width: 15px;
-        height: 15px;
-    }
-    #back2Top{
-        right: 47px;
-    }
-    .faculty .faculty-member h2 {
-        font-size: 30px;
-    }
-    .faculty .prof .information {
-        bottom: -81px;
-    }
-    .contact .contact-header h2 {
-        font-size: 30px;
-    }
-    .contact .contact-container .adjust p {
-        font-size: 15px;
-        margin-bottom: 2px;
-    }
-    .contact .contact-container .adjust h4 {
-        font-size: 25px;
-    }
-    .contact .contact-container .adjust span {
-        font-size: 18px;
-    }.contact .contact-container .adjust h2 {
-        font-size: 25px;
-    }
-    .contact .contact-container .adjust .button a {
-        padding: 15px 15px;
-        font-size: 15px;
-    }
-    .contact .contact-container .image-move{
-        text-align: center;
-    }
-    footer .location h2 {
-        font-size: 16px;
-    }
-    footer .first-table .social-links li a {
-        font-size: 20px;
-        padding: 11px 0;
-        width: 40px;
-        height: 40px;
-    }
-    footer .links ul li a {
-        font-size: 12px;
-    }
-    footer .links h2 {
-        font-size: 16px;
-    }
-    .about-us-content p {
-        font-size: 18px;
-    }
-    .about-us-content h3 {
-        font-size: 40px;
-    }
-    .strand-info h2 {
-        font-size: 40px;
-    }
-    .strand-info .content p {
-        font-size: 16px;
-    }
-    .strand-info h3 span {
-        font-size: 20px;
-    }
-    .strand-info h3{
-        font-size: 18px;
-    }
-    
-    .strand-info .even-row {
-        padding-right: 20px;
-        padding-left: 0;
-    }
+    .strands .heading-2 h1 { font-size: 30px; }
+    .strands .item { padding: 39px 0; }
+    .strands .item .align-middle .container-padding h1 { font-size: 25px; padding-bottom: 10px; }
+    .strands .item .align-middle .container-padding p { font-size: 14px; }
+    .strands .item .align-middle .container-padding .button { padding: 55px 0 0; }
+    .strands .item .align-middle .container-padding .button a { font-size: 15px; padding: 15px 25px; }
+    .strands .item .align-middle img { height: 420px; }
+    .strands .owl-dots .owl-dot { width: 15px; height: 15px; }
+    .strands .owl-dots .active { width: 15px; height: 15px; }
+    #back2Top { right: 47px; }
+    .faculty .faculty-member h2 { font-size: 30px; }
+    .faculty .prof .information { bottom: -81px; }
+    .contact .contact-header h2 { font-size: 30px; }
+    .contact .contact-container .adjust p { font-size: 15px; margin-bottom: 2px; }
+    .contact .contact-container .adjust h4 { font-size: 25px; }
+    .contact .contact-container .adjust span { font-size: 18px; }
+    .contact .contact-container .adjust h2 { font-size: 25px; }
+    .contact .contact-container .adjust .button a { padding: 15px 15px; font-size: 15px; }
+    .contact .contact-container .image-move { text-align: center; }
+    footer .location h2 { font-size: 16px; }
+    footer .first-table .social-links li a { font-size: 20px; padding: 11px 0; width: 40px; height: 40px; }
+    footer .links ul li a { font-size: 12px; }
+    footer .links h2 { font-size: 16px; }
+    .about-us-content p { font-size: 18px; }
+    .about-us-content h3 { font-size: 40px; }
+    .strand-info h2 { font-size: 40px; }
+    .strand-info .content p { font-size: 16px; }
+    .strand-info h3 span { font-size: 20px; }
+    .strand-info h3 { font-size: 18px; }
+    .strand-info .even-row { padding-right: 20px; padding-left: 0; }
 }
-
-@media(max-width: 991px){
-    .faculty-section .profile-section .profile-info {
-        padding-top: 30px;
-    }  
-    .faculty-section .profile-section .profile-image img{
-        height: 100px;
-    }  
-    .sidebar{
-        display: block; 
-    }
-    .middle-div {
-        -webkit-transform: translate(0%, -50%);
-        transform: translate(0%, -50%);
-      }
-    header{
-        display: none;
-    }
-    #header2{
-    display: block;
-   }
-    #back2Top {
-        right: 17px;
-    }
-    .about-us {
-        padding: 100px 0;
-    }
-    .strands .item .align-middle .container-padding {
-        padding: 31px 20px;
-    }
-    .strands .item .align-middle .container-padding .button {
-        padding: 8px 0 0;
-    }.strands .item {
-        padding: 15px 0;
-    }
-    .about-us .caption-container {
-        max-width: unset;
-        padding-bottom: 10px;
-    }
-    .about-us .caption-container p {
-        padding-right: 0px;
-    }
-    .faculty .prof .information .educational-background p {
-        font-size: 13px;
-    }
-    .faculty .prof .information h3 {
-        font-size: 20px;
-    }
-    .faculty .prof .information h4 {
-        font-size: 12px;
-    }
-    .faculty .prof .information {
-        bottom: -68px;
-    }
-    footer .links {
-        text-align: center;
-    }
-    .faculty .prof .information .educational-background a {
-        font-size: 13px;
-    }
+@media(max-width:991px) {
+    .faculty-section .profile-section .profile-info { padding-top: 30px; }
+    .faculty-section .profile-section .profile-image img { height: 100px; }
+    .sidebar { display: block; }
+    .middle-div { -webkit-transform: translate(0%, -50%); transform: translate(0%, -50%); }
+    header { display: none; }
+    #header2 { display: block; }
+    #back2Top { right: 17px; }
+    .about-us { padding: 100px 0; }
+    .strands .item .align-middle .container-padding { padding: 31px 20px; }
+    .strands .item .align-middle .container-padding .button { padding: 8px 0 0; }
+    .strands .item { padding: 15px 0; }
+    .about-us .caption-container { max-width: unset; padding-bottom: 10px; }
+    .about-us .caption-container p { padding-right: 0px; }
+    .faculty .prof .information .educational-background p { font-size: 13px; }
+    .faculty .prof .information h3 { font-size: 20px; }
+    .faculty .prof .information h4 { font-size: 12px; }
+    .faculty .prof .information { bottom: -68px; }
+    footer .links { text-align: center; }
+    .faculty .prof .information .educational-background a { font-size: 13px; }
 }
-
-
-
-@media(max-width: 768px){
-    .banner .banner-content {
-        max-width: 400px;
-    }
-    .middle-div {
-        -webkit-transform: translate(20%, -50%) !important;
-        transform: translate(20%, -50%) !important;
-      }
-    .about-us .image-container{
-        margin-top: 30px;
-    }
-    .about-us .image-container img{
-    width: 100%;
-    min-height: 400px;
-    object-fit: cover;
-
-    }
-    .strand-info .reverse-row{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .strand-info h2 {
-        font-size: 30px;
-    }
-    .strand-info .row{
-        padding-bottom: 40px;
-    }
-    .faculty-section .instructor-1, .faculty-section .instructor-2, .faculty-section .instructor-3, .faculty-section .instructor-4 {
-        margin-top: 38px;
-    }
-    .faculty-section .section-title h2 {
-    font-size: 35px;
-    }
-    .faculty-section .profile-section .header h1 {
-        font-size: 20px;
-    }
-    .faculty-section .profile-section .profile-info h2 {
-        font-size: 20px;
-    }
-    .faculty-section .profile-section .profile-info h3 {
-        font-size: 16px;
-    }
-    .faculty-section .profile-section .profile-info h4 {
-        font-size: 16px;
-    }
-    .faculty-section .profile-section .profile-info ul li a {
-        font-size: 16px;
-    }
-    .faculty-section .bibliography .header h2 {
-        font-size: 25px;
-    }
-    .contact-form .input_field input{
-        width: 100% !important;
-    }
-    .contact-form .input_field textarea{
-        width: 100% !important;
-    }
-    .contact-form .input_field h3 {
-    font-size: 20px;
-    }
-    .contact-form .feed-back h2 {
-        font-size: 25px;
-    }   
-    .contact-form .feed-back p {
-        font-size: 16px;
-    }
-    .connect-with-us h3 {
-        font-size: 30px;
-    }
-    .connect-with-us ul li a img {
-        height: 40px;
-        width: auto;
-        margin: 11px 20px;
-    }
-
-
-
+@media(max-width:768px) {
+    .banner .banner-content { max-width: 400px; }
+    .middle-div { -webkit-transform: translate(20%, -50%) !important; transform: translate(20%, -50%) !important; }
+    .about-us .image-container { margin-top: 30px; }
+    .about-us .image-container img { width: 100%; min-height: 400px; object-fit: cover; }
+    .strand-info .reverse-row { display: flex; flex-direction: column-reverse; }
+    .strand-info h2 { font-size: 30px; }
+    .strand-info .row { padding-bottom: 40px; }
+    .faculty-section .instructor-1, .faculty-section .instructor-2, .faculty-section .instructor-3, .faculty-section .instructor-4 { margin-top: 38px; }
+    .faculty-section .section-title h2 { font-size: 35px; }
+    .faculty-section .profile-section .header h1 { font-size: 20px; }
+    .faculty-section .profile-section .profile-info h2 { font-size: 20px; }
+    .faculty-section .profile-section .profile-info h3 { font-size: 16px; }
+    .faculty-section .profile-section .profile-info h4 { font-size: 16px; }
+    .faculty-section .profile-section .profile-info ul li a { font-size: 16px; }
+    .faculty-section .bibliography .header h2 { font-size: 25px; }
+    .contact-form .input_field input { width: 100% !important; }
+    .contact-form .input_field textarea { width: 100% !important; }
+    .contact-form .input_field h3 { font-size: 20px; }
+    .contact-form .feed-back h2 { font-size: 25px; }
+    .contact-form .feed-back p { font-size: 16px; }
+    .connect-with-us h3 { font-size: 30px; }
+    .connect-with-us ul li a img { height: 40px; width: auto; margin: 11px 20px; }
 }
-@media(max-width: 766px){
-    .middle-div {
-        -webkit-transform: translate(0%, 100%);
-        transform: translate(0%, 100%);
-      }
+@media(max-width:766px) {
+    .middle-div { -webkit-transform: translate(0%, 100%); transform: translate(0%, 100%); }
 }
-
-@media(max-width: 701px){
-    .main-nav .side-nav {
-    left: -70%;
+@media(max-width:701px) {
+    .main-nav .side-nav { left: -70%; }
 }
+@media(max-width:767px) {
+    .about-us-content img { -webkit-box-shadow: none; box-shadow: none; }
+    .form-wrapper h1 { font-size: 30px; }
+    input, input::-webkit-input-placeholder { font-size: 16px; }
+    .form-wrapper .personal-information .gender label { font-size: 18px; }
+    .form-wrapper .personal-information .gender .male::after { font-size: 9px; top: 0px; }
+    .form-wrapper .personal-information .gender .female::after { font-size: 9px; top: 0px; }
+    .form-wrapper .lower-form .grade-level span { font-size: 18px; }
+    .form-wrapper .strand span { font-size: 18px; }
+    .form-wrapper .lower-form .grade-level .grade-11::after { top: 0px; font-size: 9px; }
+    .form-wrapper .lower-form .grade-level .grade-12::after { top: 0px; font-size: 9px; }
+    .form-wrapper .strand .strand2 .humms::after { top: 0px; font-size: 9px; }
+    .form-wrapper .strand .strand2 .stem::after { top: 0px; font-size: 9px; }
+    .form-wrapper .strand .strand1 .gas::after { top: 0px; font-size: 9px; }
+    .form-wrapper .strand .strand1 .abm::after { top: 0px; font-size: 9px; }
+    .form-wrapper .strand { margin-top: 43px; }
+    .form-wrapper .strand .strand2 { top: 65px; }
+    .form-wrapper .buttons { padding-top: 70px; }
+    .form-wrapper .strand input { margin-bottom: 15px; }
+    footer .links h2 { font-size: 25px; }
+    footer .links ul li a { font-size: 15px; }
+    footer .location iframe { width: 100%; }
+    .faculty .prof .information { bottom: -70px; }
+    .contact .contact-container .image-move { display: none; }
+    footer .social-links { text-align: center; }
+    footer .upper-footer p { padding-right: 0; }
 }
-@media(max-width: 767px){
-    .about-us-content img {
-    -webkit-box-shadow: none;
-    box-shadow:none;
+@media(max-width:460px) {
+    .faculty .prof .information .educational-background p { display: none; }
+    .banner .caption-container { top: 22%; }
+    .banner:after { min-height: 44px; }
+    .banner { height: 80vh; }
+    .banner .caption-container { top: 40%; }
+    .banner .caption-container p { font-size: 12px; }
+    .banner .caption-container h2 { font-size: 20px; }
+    .banner .caption-container h1 { font-size: 30px; }
+    .contact .contact-container .adjust h2 { font-size: 20px; }
+    .faculty-section .profile-section .header h1 { font-size: 16px; }
+    .faculty-section .profile-section .header { width: 100%; }
+    .faculty-section .bibliography p { font-size: 15px; }
+    .form-wrapper .strand .strand2 { left: 200px; }
+    .form-wrapper .strand .strand1 { left: 200px; }
+    .form-wrapper .strand { margin-top: 50px; }
+    .form-wrapper .strand .strand2 { top: 70px; }
+    .form-wrapper .buttons { padding-top: 80px; text-align: center; }
+    .form-wrapper .strand input[type='radio'] { margin-bottom: 15px; }
+    .form-wrapper .lower-form .grade-level input[type='radio'] { margin: 0 44px; }
+    .form-wrapper .note p { font-size: 18px; }
+    .form-wrapper .personal-information { padding-right: 0px; }
 }
-    .form-wrapper h1 {
-        font-size: 30px;
-    }
-    input,
-        input::-webkit-input-placeholder {
-        font-size: 16px;
-    }
-    .form-wrapper .personal-information .gender label {
-        font-size: 18px;
-    }
-    .form-wrapper .personal-information .gender .male::after {
-        font-size: 9px;
-        top: 0px;
-    }
-    .form-wrapper .personal-information .gender .female::after {
-        font-size: 9px;
-        top: 0px;
-    }
-    .form-wrapper .lower-form .grade-level span {
-        font-size: 18px;
-    }
-    .form-wrapper .strand span {
-        font-size: 18px;
-    }
-    .form-wrapper .lower-form .grade-level .grade-11::after {
-        top: 0px;
-        font-size: 9px;
-    }
-     .form-wrapper .lower-form .grade-level .grade-12::after {
-        top: 0px;
-        font-size: 9px;
-    }
-    .form-wrapper .strand .strand2 .humms::after {
-        top: 0px;
-        font-size: 9px;
-    }
-    .form-wrapper .strand .strand2 .stem::after {
-        top: 0px;
-        font-size: 9px;
-    }
-    .form-wrapper .strand .strand1 .gas::after {
-        top: 0px;
-        font-size: 9px;
-    }
-    .form-wrapper .strand .strand1 .abm::after {
-        top: 0px;
-        font-size: 9px;
-    }
-    .form-wrapper .strand {
-        margin-top: 43px;
-    }
-    .form-wrapper .strand .strand2 {
-        padding-top: 65px;
-    }
-    .form-wrapper .buttons {
-        padding-top: 70px;
-    }
-    .form-wrapper .strand input{
-        margin-bottom: 15px;
-    }
-    footer .links h2 {
-        font-size: 25px;
-    }
-    footer .links ul li a {
-        font-size: 15px;
-    }
-    footer .location iframe {
-        width: 100%;
-    }
-    .faculty .prof .information {
-        bottom: -70px;
-    }
-    .contact .contact-container .image-move {
-        display: none;
-    }
-    footer .social-links{
-        text-align: center;
-    }
-    footer .upper-footer p {
-        padding-right: 0;
-    }
-}
-@media(max-width: 460px){
- 
-    .faculty .prof .information .educational-background p {
-        display: none;
-    }
-    .banner .caption-container {
-        top: 22%;
-    }
-    .banner:after {
-        min-height: 44px;
-    }
-    .banner {
-        height: 80vh;
-    }
-    .banner .caption-container {
-        top: 40%;
-    }
-    .banner .caption-container p {
-        font-size: 12px;
-    }
-    .banner .caption-container h2 {
-        font-size: 20px;
-    }
-    .banner .caption-container h1 {
-        font-size: 30px;
-    }
-    .contact .contact-container .adjust h2 {
-        font-size: 20px;
-    }
-    .faculty-section .profile-section .header h1 {
-        font-size: 16px;
-    }
-    .faculty-section .profile-section .header{
-        width: 100%;
-    }
-    .faculty-section .bibliography p {
-        font-size: 15px;
-    }
-    .form-wrapper .strand .strand2 {
-        left: 200px;
-    }
-    .form-wrapper .strand .strand1 {
-        left: 200px;
-    }
-    .form-wrapper .strand {
-        margin-top: 50px;
-    }
-    .form-wrapper .strand .strand2 {
-        padding-top: 70px;
-    }
-    .form-wrapper .buttons {
-        padding-top: 80px;
-        text-align: center;
-    }
-    .form-wrapper .strand input[type='radio'] {
-        margin-bottom: 15px;
-    }
-    .form-wrapper .lower-form .grade-level input[type='radio'] {
-        margin: 0 44px;
-    }
-    .form-wrapper .note p {
-        font-size: 18px;
-    }
-    .form-wrapper .personal-information {
-        padding-right: 0px;
-    }
-    
-}
-@media (max-width: 320px){
-    .form-wrapper .lower-form .grade-level {
-        padding: 10px 60px;
-    }
-    .form-wrapper .buttons input[type='submit'] {
-        margin-right: 0px;
-        margin-bottom: 20px;
-    }
+@media (max-width:320px) {
+    .form-wrapper .lower-form .grade-level { padding: 10px 60px; }
+    .form-wrapper .buttons input[type='submit'] { margin-right: 0px; margin-bottom: 20px; }
 }

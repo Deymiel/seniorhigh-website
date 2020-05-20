@@ -314,7 +314,7 @@ footer .location iframe { width: 450px; height: 200px; }
 .form-wrapper .strand .strand1 .abm::after { content: 'ABM'; position: absolute; top: -2px; left: 15px; font-size: 11px; width: 100%; min-width: 100px; }
 .form-wrapper .strand .strand1 .gas { position: relative; }
 .form-wrapper .strand .strand1 .gas::after { content: 'GAS'; position: absolute; top: -2px; left: 15px; font-size: 11px; width: 100%; min-width: 100px; }
-.form-wrapper .strand .strand2 { display: inline-block; position: absolute; left: 290px; padding-top: 40px; }
+.form-wrapper .strand .strand2 { display: inline-block; position: absolute; left: 290px;top: 40px; }
 .form-wrapper .strand .strand2 .humms { position: relative; }
 .form-wrapper .strand .strand2 .humms::after { content: 'HUMMS'; position: absolute; top: -2px; left: 15px; font-size: 11px; width: 100%; min-width: 100px; }
 .form-wrapper .strand .strand2 .stem { position: relative; }
